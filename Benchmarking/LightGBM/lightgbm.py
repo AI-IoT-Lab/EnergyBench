@@ -168,7 +168,7 @@ def process_file(filename):
 if __name__ == "__main__":
 
 
-    parser = argparse.ArgumentParser(description = "zero-shot using linear")
+    parser = argparse.ArgumentParser(description = "zero-shot using lightgbm")
 
     parser.add_argument("--dataset", type = str, help = "Dataset name")
 
